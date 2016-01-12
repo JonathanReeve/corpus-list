@@ -1,90 +1,109 @@
-corpora:
-        - shortname: shc
-        title: Shakespeare His Contemporaries
-        category: literature
-        authors: multiple 
-        centuries: 16th, 17th
-        text-types: TEI-Simple
-                url: https://github.com/JonathanReeve/corpus-SHC.git
-                url-type: git
+- shortname: shc
+  title: Shakespeare His Contemporaries
+  categories: literature
+  authors: multiple 
+  centuries: 16th, 17th
+  text: 
+    markup: TEI-Simple
+    url: 'https://github.com/JonathanReeve/corpus-SHC.git'
+    file-format: git
+- shortname: folger-shakespeare
+  title: Folger Shakespeare Library Digital Texts
+  categories: literature
+  centuries: 16th, 17th
+  authors: single 
+  homepage: http://www.folgerdigitaltexts.org/
+  url-source: http://www.folgerdigitaltexts.org/download/
+  text: 
+    - markup: TEI
+      url: http://www.folgerdigitaltexts.org/download/xml/FolgerDigitalTexts_XML_Complete.zip
+      file-format: zip
+  text: 
+    - markup: HTML
+      url: http://www.folgerdigitaltexts.org/download/html/FolgerDigitalTexts_HTML_Complete.zip
+      file-format: zip
+  text: 
+    - markup: TXT
+      url: http://www.folgerdigitaltexts.org/download/txt/FolgerDigitalTexts_TXT_Complete.zip
+      file-format: zip
 
-        - shortname: folger-shakespeare
-        title: Folger Shakespeare Library Digital Texts
-        categories: literature
-        centuries: 16th, 17th
-        authors: single 
-        homepage: http://www.folgerdigitaltexts.org/
-        url-source: http://www.folgerdigitaltexts.org/download/
-        text-types: TEI
-                url: http://www.folgerdigitaltexts.org/download/xml/FolgerDigitalTexts_XML_Complete.zip
-                url-type: zip
-        text-types: HTML
-                url: http://www.folgerdigitaltexts.org/download/html/FolgerDigitalTexts_HTML_Complete.zip
-                url-type: zip
-        text-types: TXT
-                url: http://www.folgerdigitaltexts.org/download/txt/FolgerDigitalTexts_TXT_Complete.zip
-                url-type: zip
+- shortname: perseus-c-greek
+  title: Perseus Canonical Greek
+  categories: classics
+  authors: multiple
+  text: 
+    markup: TEI
+    url: https://github.com/PerseusDL/canonical-greekLit.git
+    file-format: git
 
-        - shortname: perseus-c-greek
-        title: Perseus Canonical Greek
-        category: classics
-        authors: multiple
-        text-types: TEI
-                url: https://github.com/PerseusDL/canonical-greekLit.git
-                url-type: git
+- shortname: stanford-1880s
+  title: 'Adult British Fiction of the 1880s, Assembled by the Stanford Literary Lab'
+  categories: literature
+  centuries: 19th
+  text: 
+    markup: TXT
+    url: https://github.com/JonathanReeve/corpus-1880s-all.git
+    file-format: git
+  subcorpora:
+    - shortname: stanford-1880s-male
+      title: 'Adult British fiction of the 1880s, male authors. Assembled by the Stanford Literary Lab'
+      text: 
+        markup: txt
+        url: https://github.com/JonathanReeve/corpus-1880s-male.git
+        file-format: git
 
-        - shortname: stanford-1880s
-        title: 'Adult British Fiction of the 1880s, Assembled by the Stanford Literary Lab'
-        category: literature
-        text-type: TXT
-        url: https://github.com/JonathanReeve/corpus-1880s-all.git
-                url-type: git
-        subcorpora:
-                - shortname: stanford-1880s-male
-                title: 'Adult British fiction of the 1880s, male authors. Assembled by the Stanford Literary Lab'
-                text-type: txt
-                        url: https://github.com/JonathanReeve/corpus-1880s-male.git
-                        url-type: git
+    - shortname: stanford-1880s-female
+      title: 'Adult British fiction of the 1880s, female authors. Assembled by the Stanford Literary Lab'
+      text: 
+        markup: txt
+        url: https://github.com/JonathanReeve/corpus-1880s-female.git
+        file-format: git
 
-                - shortname: stanford-1880s-female
-                title: 'Adult British fiction of the 1880s, female authors. Assembled by the Stanford Literary Lab'
-                text-type: txt
-                        url: https://github.com/JonathanReeve/corpus-1880s-female.git
-                        url-type: git
+- shortname: reuters-21578
+  title: Reuters-21578 
+  homepage: http://www.daviddlewis.com/resources/testcollections/reuters21578/
+  categories: history
+  text: 
+    markup: txt 
+    url: http://www.daviddlewis.com/resources/testcollections/reuters21578/reuters21578.tar.gz
+    file-format: tar.gz
 
-        - shortname: reuters-21578
-        title: Reuters-21578 
-        homepage: http://www.daviddlewis.com/resources/testcollections/reuters21578/
-        category: history
-        text-type: txt 
-                url: http://www.daviddlewis.com/resources/testcollections/reuters21578/reuters21578.tar.gz
-                url-type: tar.gz
-
-        - shortname: ecco-tcp
-        title: Eighteenth Century Collections Online / Text Creation Partnership ECCO-TCP
-        homepage: http://www.textcreationpartnership.org/tcp-ecco/
-        category: literature
-        centuries: 18th
-        text-type: xml
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200510.ecco.zip 
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200601.ecco.zip 
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200604.ecco.zip
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200609.ecco.zip
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200702.ecco.zip
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200802.ecco.zip
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200809.ecco.zip
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200902.ecco.zip
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200909.ecco.zip
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201004.ecco.zip
-                url-type: zip
-                - url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201106.ecco.zip 
-                url-type: zip
+- shortname: ecco-tcp
+  title: Eighteenth Century Collections Online / Text Creation Partnership ECCO-TCP
+  homepage: http://www.textcreationpartnership.org/tcp-ecco/
+  categories: literature
+  centuries: 18th
+  text: 
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200510.ecco.zip 
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200601.ecco.zip 
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200604.ecco.zip
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200609.ecco.zip
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200702.ecco.zip
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200802.ecco.zip
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200809.ecco.zip
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200902.ecco.zip
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200909.ecco.zip
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201004.ecco.zip
+      file-format: zip
+    - markup: xml
+      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201106.ecco.zip 
+      file-format: zip
