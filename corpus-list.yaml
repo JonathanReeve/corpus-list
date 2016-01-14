@@ -18,11 +18,9 @@
     - markup: TEI
       url: http://www.folgerdigitaltexts.org/download/xml/FolgerDigitalTexts_XML_Complete.zip
       file-format: zip
-  text: 
     - markup: HTML
       url: http://www.folgerdigitaltexts.org/download/html/FolgerDigitalTexts_HTML_Complete.zip
       file-format: zip
-  text: 
     - markup: TXT
       url: http://www.folgerdigitaltexts.org/download/txt/FolgerDigitalTexts_TXT_Complete.zip
       file-format: zip
