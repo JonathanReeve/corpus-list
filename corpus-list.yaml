@@ -72,36 +72,17 @@
   categories: literature
   centuries: 18th
   text: 
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200510.ecco.zip 
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200601.ecco.zip 
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200604.ecco.zip
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200609.ecco.zip
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200702.ecco.zip
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200802.ecco.zip
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200809.ecco.zip
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200902.ecco.zip
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200909.ecco.zip
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201004.ecco.zip
-      file-format: zip
-    - markup: xml
-      url: http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201106.ecco.zip 
-      file-format: zip
+    markup: xml
+    file-format: zip
+    url: 
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200510.ecco.zip 
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200601.ecco.zip 
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200604.ecco.zip
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200609.ecco.zip
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200702.ecco.zip
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200802.ecco.zip
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200809.ecco.zip
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200902.ecco.zip
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200909.ecco.zip
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201004.ecco.zip
+      - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201106.ecco.zip 
