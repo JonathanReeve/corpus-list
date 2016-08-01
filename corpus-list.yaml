@@ -34,6 +34,15 @@
     url: https://github.com/PerseusDL/canonical-greekLit.git
     file-format: git
 
+- shortname: perseus-c-latin
+  title: Perseus Canonical Latin
+  categories: classics
+  authors: multiple
+  text: 
+    markup: TEI
+    url: https://github.com/PerseusDL/canonical-latinLit.git
+    file-format: git
+
 - shortname: stanford-1880s
   title: 'Adult British Fiction of the 1880s, Assembled by the Stanford Literary Lab'
   categories: literature
