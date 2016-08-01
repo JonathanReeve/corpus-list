@@ -86,3 +86,14 @@
       - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-200909.ecco.zip
       - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201004.ecco.zip
       - http://www.lib.umich.edu/tcp/docs/texts/ecco/xml-201106.ecco.zip 
+- shortname: dta
+  title: Deutsches Textarchiv (German Text Archive)
+  homepage: http://www.deutschestextarchiv.de/
+  categories: literature, science, history, etc.
+  centuries: 16th, 17th, 18th, 19th
+  text:
+    markup: TEI
+    file-format: zip
+    url:
+      - http://media.dwds.de/dta/download/dta_komplett_2016-02-11.zip
+
