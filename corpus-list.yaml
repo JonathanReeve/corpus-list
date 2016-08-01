@@ -107,11 +107,21 @@
 - shortname: dta
   title: Deutsches Textarchiv (German Text Archive)
   homepage: http://www.deutschestextarchiv.de/
-  categories: literature, science, history, etc.
+  categories: literature, science, history
   centuries: 16th, 17th, 18th, 19th
   languages: deu
   text:
     markup: TEI
     file-format: zip
-    url:
-      - http://media.dwds.de/dta/download/dta_komplett_2016-02-11.zip
+    url: http://media.dwds.de/dta/download/dta_komplett_2016-02-11.zip
+
+- shortname: ota
+  title: Oxford Text Archive
+  homepage: https://ota.ox.ac.uk/
+  categories: literature, history
+  centuries: 16th, 17th, 18th, 19th, 20th
+  languages: eng, enm, fra, deu, lat, grc
+  text: 
+    markup: TXT
+    file-format: git
+    url: https://github.com/mimno/ota.git
