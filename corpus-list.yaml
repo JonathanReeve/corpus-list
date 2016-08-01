@@ -125,3 +125,25 @@
     markup: TXT
     file-format: git
     url: https://github.com/mimno/ota.git
+
+- shortname: cenlab
+  title: CENLab
+  homepage: https://github.com/JonathanReeve/cenlab 
+  categories: literature
+  centuries: 18th, 19th, 20th
+  languages: eng
+  text: 
+    markup: TXT
+    file-format: git
+    url: https://github.com/JonathanReeve/cenlab.git
+
+- shortname: brown
+  title: Brown Corpus
+  homepage: http://www.essex.ac.uk/linguistics/external/clmt/w3c/corpus_ling/content/corpora/list/private/brown/brown.html
+  categories: linguistics
+  languages: eng
+  centuries: 20th
+  text: 
+    markup: TXT
+    file-format: zip
+    url: https://github.com/nltk/nltk_data/raw/gh-pages/packages/corpora/brown.zip
