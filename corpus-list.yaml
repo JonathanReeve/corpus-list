@@ -126,6 +126,17 @@
     file-format: git
     url: https://github.com/mimno/ota.git
 
+- shortname: txtLAB450
+  title: txtLAB450, a Multilingual Data Set of Novels
+  categories: literature
+  authors: multiple 
+  centuries: 17th, 18th, 19th
+  languages: eng, fra, deu
+  text: 
+    markup: TXT 
+    url: 'https://ndownloader.figshare.com/files/3686778'
+    file-format: zip
+
 - shortname: cenlab
   title: CENLab
   homepage: https://github.com/JonathanReeve/cenlab 
